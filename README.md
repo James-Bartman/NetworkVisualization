@@ -1,6 +1,6 @@
-# StrategiesAnalysis
+# Network Visualization Tool in Python
 
-StrategiesAnalysis contains two main programs for generating network graphs of work strategies - one in MATLAB and one in Python. The Python program is under ongoing development.
+The NetworkVisualization repository contains a program designed for creating network visualizations in Python. The program is still under ongoing development.
 
 ## Getting Started
 
@@ -11,20 +11,11 @@ To install the required packages:
 pip install -r requirements.txt
 ```
 
-Running the MATLAB program will require the Bioinformatics toolbox if it is not already intalled.
-
 ## Usage
-
-### Running MATLAB program
-
-The main script file for the MATLAB visualization is `main.m` located in the root folder. Running this script generates three network visualizations:
-1. A directional graph of actions and information resources
-2. A non-directional graph of actions and physical resources
-3. A directional graph of actions under the contraints given by the physical and information resources
 
 ### Running Python Program
 
-The Python visualization runs on a web application powered by Dash, and the script that runs this application is `app.py`. Running `app.py` runs `main.py` which builds the actual network visualization. Both files are located in `Python\GUITesting`.
+The Python visualization runs on a web application powered by Dash, and the script that runs this application is `app.py`. Running `app.py` runs `main.py` which builds the actual network visualization. Both files are located in the `app` folder/directory.
 
 To generate the network visualization, run `app.py`.  If there are any cycles detected in the network you will be asked to choose an edge to remove so the network can be generated without cycles. You will then receive the following output:
 ```
@@ -39,7 +30,7 @@ The visualization produced is a directed network of action nodes (equivalent to 
 4. View either the full network with action and resource nodes or the network with only action nodes
 
 ## Data Files
-The MATLAB and Python programs use the same data files to generate the visualizations. The data files with the most up to date format are located in `DataFiles\KatieResearch\FinalReportFiles`.
+The data files with the most up to date format are located in `DataFiles\KatieResearch\FinalReportFiles`.
 
 Creating the network graphs requires data on physical resource constraints, information resource constraints, and a work allocation. This data provided in csv format. Listed below are examples of the contents and format of the 3 required data files.
 
@@ -99,6 +90,7 @@ This is the core script of the program that generates the networks from the give
 
 ### app
 This is the script that should be run in order to view the application. This will get the plotly graph objects from `main.py` and arrange the graph and various controls on the webpage.
+
 ### networkbuild
 The networkbuild module contains functions corresponding to the creation of networks from the raw data, relying heavily on the Networkx package.
 
