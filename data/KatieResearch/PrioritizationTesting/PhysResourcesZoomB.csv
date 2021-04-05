@@ -1,0 +1,6 @@
+MaintenanceWMStoreInspectionTools,MaintenanceWMInspection_tool,use,0
+MaintenanceWMRemoveBrokenPanel,MaintenanceWMRepair_tool,use,0
+MaintenanceWMRemoveBrokenPanel,MaintenanceWMPanel1,use,0
+MaintenanceWMEmplaceNewPanel,MaintenanceWMRepair_tool,use,0
+MaintenanceWMEmplaceNewPanel,MaintenanceWMBackup_panel1,use,0
+MaintenanceWMDisposeOfBrokenPanel,MaintenanceWMPanel1,use,0

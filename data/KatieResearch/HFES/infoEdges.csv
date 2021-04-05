@@ -1,0 +1,12 @@
+actionName,resourceName,type,priority
+action1,resourceA,get,0
+action1,resourceB,get,0
+action1,resourceC,set,0
+action1,resourceD,set,0
+action2,resourceC,get,0
+action2,resourceD,get,0
+action2,resourceE,set,0
+action3,resourceD,get,0
+action3,resourceE,set,0
+action4,resourceF,get,0
+action4,resourceE,set,0

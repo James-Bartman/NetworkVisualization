@@ -1,0 +1,5 @@
+MaintenanceWMPrepare_inspection_tools,Astronaut
+MaintenanceWMPrepare_repair_tools,Astronaut
+MaintenanceWMApply_inspection_tools,Humanoid
+MaintenanceWMGet_inspection_update,Astronaut
+MaintenanceWMGive_inspection_update,Humanoid

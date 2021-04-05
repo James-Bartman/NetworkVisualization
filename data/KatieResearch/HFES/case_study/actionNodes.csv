@@ -1,0 +1,12 @@
+actionName,authorizedAgent,responsibleAgent,actionAttribute
+MaintenanceWMPrepare_Inspection_Tools,Astronaut1,Astronaut1,0
+MaintenanceWMApply_Inspection_Tools,Astronaut1,Astronaut1,0
+MaintenanceWMGet_Inspection_Update,Humanoid,Humanoid,0
+MaintenanceWMGive_Inspection_Update,Astronaut1,Astronaut1,0
+MaintenanceWMStore_Inspection_Tools,Astronaut1,Astronaut1,0
+MaintenanceWMPrepare_Repair_Tools,Humanoid,Humanoid,0
+MaintenanceWMGet_New_Panel,Astronaut1,Astronaut1,0
+MaintenanceWMRemove_Broken_Panel,Humanoid,Humanoid,0
+MaintenanceWMEmplace_New_Panel,Astronaut1,Astronaut1,0
+MaintenanceWMDispose_Of_BrokenPanel,Humanoid,Humanoid,0
+MaintenanceWMStore_Repair_Tools,Astronaut1,Astronaut1,0

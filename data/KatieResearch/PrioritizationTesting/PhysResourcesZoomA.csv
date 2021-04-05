@@ -1,0 +1,3 @@
+MaintenanceWMPrepareInspectionTools,MaintenanceWMInspection_tool,use,0
+MaintenanceWMApplyInspectionTools,MaintenanceWMInspection_tool,use,0
+MaintenanceWMPrepareRepairTools,MaintenanceWMRepair_tool,use,0
